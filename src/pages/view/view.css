@@ -1,0 +1,33 @@
+.expense-item .right-row1 {
+  display: inline-flex;
+  width: 100%;
+}
+.expense-item .right-row1 .view-1 {
+  width: 300px;
+  align-items: center;
+  display: inline-flex;
+}
+.expense-item .right-row1 .view-2 {
+  width: 200px;
+  display: inline-flex;
+  align-items: center;
+}
+.expense-item .right-row1 .view-3 {
+  width: 100px;
+  display: inline-flex;
+  align-items: center;
+}
+.expense-item .right-row2 {
+  display: inline-flex;
+  width: 100%;
+}
+.expense-item .right-row2 .view-1 {
+  width: 300px;
+  align-items: center;
+  display: inline-flex;
+}
+.expense-item .right-row2 .view-2 {
+  width: 200px;
+  display: inline-flex;
+  align-items: center;
+}/*# sourceMappingURL=view.css.map */

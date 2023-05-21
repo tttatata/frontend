@@ -1,0 +1,133 @@
+.right-row1 {
+  display: inline-flex;
+  width: 100%;
+}
+.right-row1 .view-1 {
+  width: 300px;
+  align-items: center;
+  display: inline-flex;
+}
+.right-row1 .view-2 {
+  width: 200px;
+  display: inline-flex;
+  align-items: center;
+}
+.right-row1 .view-3 {
+  width: 100px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.right-row2 {
+  display: inline-flex;
+  width: 100%;
+}
+.right-row2 .view-1 {
+  width: 300px;
+  align-items: center;
+  display: inline-flex;
+}
+.right-row2 .view-2 {
+  width: 200px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.productList {
+  border: 0.5px rgb(0, 119, 255);
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+}
+
+.productCard {
+  margin: 5px;
+  padding: 10px;
+  position: relative;
+  border: 1px solid rgb(107, 105, 219);
+  height: 300px;
+  width: 250px;
+  transition: 0.2s;
+}
+
+.productCard:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+.productImage {
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.productCard__cart {
+  position: absolute;
+  right: 0;
+  margin: 1rem;
+  font-size: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.productCard__wishlist {
+  position: absolute;
+  right: 3rem;
+  margin: 1rem;
+  font-size: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.productCard__fastSelling {
+  position: absolute;
+  font-size: 2rem;
+  left: 0;
+  margin: 1rem;
+  fill: var(--color-orange-primary);
+}
+
+.productCard__content {
+  margin: 2rem;
+}
+
+.productName {
+  font-size: 1.5rem;
+}
+
+.displayStack__1,
+.displayStack__2 {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productPrice {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.productSales,
+.productTime {
+  font-size: 1.1rem;
+}
+
+.form-table .table {
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px #b1b1b1;
+  height: 50px;
+  overflow-y: scroll;
+}
+.form-table .table .table-body {
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+.form-table .table .table-body .table-row {
+  height: 50px;
+}
+
+.active {
+  bottom: 0;
+}/*# sourceMappingURL=list.css.map */
